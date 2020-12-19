@@ -15,6 +15,11 @@ app.get("/about", function (req, res) {
     res.send("<div><h1>I am Mukaila Semiu,</h1> <p>Learning with Angela Yu.</p></div>")
 })
 
+app.get("/work", function (req, res) {
+    res.send("Still learning Full stack development");
+})
+
+
 
 app.listen(3000, function () {
     console.log("server 3000 started....")
