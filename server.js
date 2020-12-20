@@ -20,6 +20,10 @@ app.get("/work", function (req, res) {
 })
 
 
+app.get("/hobbies", function (req, res) {
+    res.send("<ul><li>Food</li><li>Code</li><li>Sleep</li></ul>");
+})
+
 
 app.listen(3000, function () {
     console.log("server 3000 started....")
